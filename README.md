@@ -185,30 +185,6 @@ This illustrates how portfolio composition shifts as risk aversion changes, and 
 
 ---
 
-## 5. Suggested Repository Structure
-
-> Adjust this section to match your actual folder and file names.
-
-```text
-.
-├── problem1_minimum_fuel_control/
-│   ├── minimum_fuel_control.ipynb      # CVXPY modeling & plots for Problem 1
-│   └── figures/                        # Plots of u(t), position, velocity
-├── problem2_lp_sensitivity/
-│   └── lp_sensitivity_notes.ipynb      # Primal–dual sensitivity derivations
-├── problem3_l1_duality/
-│   └── l1_duality.ipynb                # LP reformulation & dual comparison
-├── portfolio_optimization/
-│   ├── portfolio_markowitz.ipynb       # Data download & Markowitz optimization
-│   ├── results/                        # Efficient frontier data
-│   └── figures/                        # Frontier plots, weight bar charts
-├── DSEB_Project_Optimization_Final.pdf # Project report (PDF)
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## 6. Installation & Setup
 
 ### 6.1 Clone the repository
@@ -258,17 +234,6 @@ Then open and run the notebooks in each subdirectory, for example:
 3. `portfolio_optimization/portfolio_markowitz.ipynb`
 
 Each notebook contains explanation, model setup, solver calls, and plots.
-
-### 7.2 Scripts (if provided)
-
-If you refactor into scripts, typical usage might look like:
-
-```bash
-python -m problem1_minimum_fuel_control.solve
-python -m portfolio_optimization.run_markowitz
-```
-
-Update this section once your final script layout is fixed.
 
 ---
 
